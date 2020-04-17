@@ -35,10 +35,9 @@ public class Animal {
         this.velocidad = velocidad;
     }
     
-    /**
-     * Implementacion default, cada hijo debe implementar este metodo
-     * @param esPersona
-     */
+    
+    //Implementacion default, cada hijo debe implementar este metodo
+     
     public void colisionar(boolean esPersona){
         System.out.println("Este animal colisiono");
     }
